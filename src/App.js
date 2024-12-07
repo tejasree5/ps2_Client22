@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/dashboard" element={<PrivateRoute><DashboardLayoutBasic /></PrivateRoute>} />
-        <Route path="/navbar"  element={<PrivateRoute><navbar /></PrivateRoute>} />
+        <Route path="/navbar"  element={<PrivateRoute><Navbar /></PrivateRoute>} />
       </Routes>
     </Router>
   );
