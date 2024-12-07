@@ -1,0 +1,93 @@
+/* Login.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/src/assets/Sakura Bento.png'); /* Path to your background image */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for contrast */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3b5998;
+  box-shadow: 0 0 5px rgba(59, 89, 152, 0.5);
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #2e477a;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.switch-auth {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link {
+  color: #3b5998;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

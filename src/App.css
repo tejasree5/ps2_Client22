@@ -1,0 +1,119 @@
+.carousel-container {
+  margin: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.recipes-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.recipe-card {
+  transition: transform 0.3s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-list {
+  padding: 20px;
+}
+.recipe-card {
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+
+.recipe-card:hover {
+  transform: scale(1.05); /* Hover effect */
+}
+
+.nutritional-info {
+  margin-top: 10px; /* Add some space */
+}
+.recipe-list {
+  padding: 20px;
+}
+
+.recipe-list .MuiCard-root {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-list .MuiCardContent-root {
+  text-align: center;
+}
+
+.recipe-list button {
+  margin-top: 10px;
+}
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.paper {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+button {
+  margin-top: 15px;
+}
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height */
+}
+
+.login-title {
+  margin-bottom: 20px;
+  color: #3c763d; /* Pastel green color */
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px; /* Restrict the width */
+}
+
+.login-button {
+  margin-top: 20px;
+  color: #1f5020;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 768px) {
+  .login-container {
+    justify-content: center; /* Center for small devices */
+  }
+}
+
+/* Styling for larger screens */
+@media (min-width: 769px) {
+  .login-container {
+    align-items: flex-start; /* Align to left on larger screens */
+    padding-left: 50px; /* Add some left padding */
+  }
+}
